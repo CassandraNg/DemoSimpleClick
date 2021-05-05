@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity {
                 if (rgGender.getCheckedRadioButtonId() == R.id.radioButtonGenderMale){
                     userInput ="He says "+userInput;
                 }
-                else{
+                else if(rgGender.getCheckedRadioButtonId() == R.id.radioButtonGenderFemale){
                     userInput ="She says "+userInput;
+                }
+                else{
+                    userInput ="They said "+userInput;
                 }
                 tvDisplay.setText(userInput);
             }

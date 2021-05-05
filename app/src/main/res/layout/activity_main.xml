@@ -52,6 +52,12 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderOthers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others" />
     </RadioGroup>
 
     <ToggleButton
